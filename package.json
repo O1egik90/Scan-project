@@ -1,7 +1,6 @@
 {
     "name": "final-project-scan",
     "private": true,
-    "homepage": "https://O1egik90.github.io/Scan-project/",
     "version": "1.0.0",
     "type": "module",
     "scripts": {
