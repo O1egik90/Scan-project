@@ -1,0 +1,33 @@
+.card__button {
+    display: inline-block;
+    width: 223px;
+    padding: 13px 30px;
+
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    text-align: center;
+
+    border-radius: 5px;
+    background-color: #7ce3e1;
+    transition: 0.3s ease-in-out;
+}
+
+.card__button:hover {
+    cursor: pointer;
+    background-color: #79ebe9;
+    transition: 0.3s ease-in-out;
+}
+
+.card__button:active {
+    background-color: #5ce3e1;
+    transition: 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+    .card__button {
+        width: 195px;
+        padding: 12px 28px;
+        font-size: 14px;
+        letter-spacing: 0.14px;
+    }
+}

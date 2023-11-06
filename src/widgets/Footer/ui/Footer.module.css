@@ -1,0 +1,39 @@
+.footer {
+    display: grid;
+    grid-template-columns: minmax(auto, 141px) minmax(auto, 1184px);
+    justify-content: center;
+    align-items: center;
+    min-height: 137px;
+    column-gap: 48px;
+
+    padding: 5px 10px 0 55px;
+    background-color: #029491;
+}
+
+.body {
+    margin-right: 25px;
+    padding-right: 10px;
+    color: #fff;
+    text-align: right;
+}
+
+.contacts {
+    margin: 0 0 20px;
+    font-size: 14px;
+    letter-spacing: 0.28px;
+}
+
+@media (max-width: 765px) {
+    .footer {
+        grid-template-columns: repeat(2, auto);
+        align-items: start;
+        justify-content: space-between;
+        column-gap: 18px;
+        padding: 20px 12px 5px 15px;
+        background-color: #029491;
+    }
+
+    .body {
+        margin-right: 0;
+    }
+}

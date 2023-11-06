@@ -1,0 +1,16 @@
+.card__text {
+    font-size: 16px;
+    color: #949494;
+    letter-spacing: 0.32px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .card__text {
+        font-size: 14px;
+        letter-spacing: 0.14px;
+    }
+}

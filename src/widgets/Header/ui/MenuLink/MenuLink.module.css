@@ -1,0 +1,46 @@
+.menu__item {
+    font-size: 14px;
+    letter-spacing: 0.14px;
+}
+
+.menu__link {
+    position: relative;
+    transition: 0.3s linear;
+}
+
+.menu__link:before {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: #029491;
+}
+
+.menu__link:hover::before {
+    width: 100%;
+    transition: 0.5s linear;
+}
+
+.menu__link:hover {
+    cursor: pointer;
+    text-shadow: 0.3px 0 0 #029491;
+    transition: 0.3s linear;
+}
+
+.menu__link:active {
+    color: #333;
+    transition: 0.05s linear;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+@media (max-width: 1100px) {
+    .navigation__item {
+        font-size: 16px;
+        letter-spacing: 0.16px;
+    }
+}

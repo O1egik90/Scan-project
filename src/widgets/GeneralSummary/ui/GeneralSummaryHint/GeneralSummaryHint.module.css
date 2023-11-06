@@ -1,0 +1,33 @@
+.general-summary__hint {
+    position: absolute;
+
+    align-self: center;
+    display: grid;
+    grid-template-columns: minmax(auto, 300px) auto;
+    align-items: center;
+    gap: 5px;
+
+    padding: 10px;
+
+    color: rgb(243, 142, 142);
+    text-align: center;
+}
+
+.general-summary__hint-button {
+    position: relative;
+    z-index: 2;
+
+    width: 30px;
+    height: 30px;
+
+    background: url('./back-arrow.svg') center / cover no-repeat;
+
+    transition: opacity 0.3s linear;
+}
+
+.general-summary__hint-button:hover {
+    opacity: 0.9;
+    box-shadow: 0 0 1px 0.5px rgb(43, 211, 13);
+    border-radius: 7px;
+    transition: opacity 0.3s linear;
+}

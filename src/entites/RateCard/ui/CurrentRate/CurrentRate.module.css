@@ -1,0 +1,24 @@
+.current-rate {
+    position: absolute;
+    right: 10px;
+    top: -23px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 134px;
+    height: 24px;
+
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: 0.14px;
+
+    background-color: #3ba5e0;
+    border-radius: 10px;
+}
+
+@media (max-width: 767px) {
+    .current-rate {
+        display: none;
+    }
+}

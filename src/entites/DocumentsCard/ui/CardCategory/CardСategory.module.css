@@ -1,0 +1,20 @@
+.card__category {
+    display: inline-block;
+    min-width: 157px;
+    padding: 4px 12px;
+
+    font-size: 12px;
+    letter-spacing: 0.24px;
+    text-align: center;
+
+    border-radius: 5px;
+    background: #ffb64f;
+}
+
+@media (max-width: 768px) {
+    .card__category {
+        min-width: 132px;
+        font-size: 10px;
+        letter-spacing: 0.1px;
+    }
+}

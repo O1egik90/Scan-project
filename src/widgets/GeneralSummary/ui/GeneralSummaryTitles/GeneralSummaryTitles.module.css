@@ -1,0 +1,33 @@
+.general-summary__titles {
+    display: grid;
+    row-gap: 26px;
+
+    padding: 17px 27px;
+
+    border-radius: 10px 0px 0px 10px;
+    background-color: #029491;
+}
+
+.general-summary__title {
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.4px;
+    font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .general-summary__titles {
+        display: grid;
+        grid-template-columns: 1.7fr 1fr 1fr;
+
+        min-width: 298px;
+        padding: 23px 15px 28px;
+
+        border-radius: 10px 10px 0 0;
+    }
+
+    .general-summary__title {
+        font-size: 18px;
+        letter-spacing: 0.18px;
+    }
+}

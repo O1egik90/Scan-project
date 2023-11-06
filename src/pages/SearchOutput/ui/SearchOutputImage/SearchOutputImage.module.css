@@ -1,0 +1,25 @@
+.search-output__image {
+    position: relative;
+    width: 552.5px;
+    height: 369px;
+    margin-right: 43px;
+}
+
+@media (max-width: 1340px) {
+    .search-output__image {
+        width: calc(350px + 202.5 * (100vw / 1340));
+        height: calc(233.7px + 135.3 * (100vw / 1340));
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .search-output__image {
+        width: calc(335px + (202.5 + 202.5 * 0.7) * ((100vw - 375px) / 1340));
+        height: calc(233.7px + (135.3 + 135.3 * 0.7) * ((100vw - 355px) / 1340));
+    }
+
+    .search-output__image img {
+        object-position: 0 -3px;
+    }
+}

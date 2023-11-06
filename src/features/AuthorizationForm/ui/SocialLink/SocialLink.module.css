@@ -1,0 +1,13 @@
+.social__link {
+    pointer-events: none;
+    display: inline-block;
+    width: 96px;
+    height: 31px;
+    background-color: transparent;
+}
+
+.social__link img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

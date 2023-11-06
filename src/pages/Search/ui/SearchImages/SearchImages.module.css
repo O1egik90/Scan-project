@@ -1,0 +1,33 @@
+.search__images {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 400px;
+}
+
+.document {
+    width: 91px;
+    height: 111px;
+}
+
+.folders {
+    width: 140.6px;
+    height: 68.4px;
+    margin-bottom: 24px;
+}
+
+@media (max-width: 768px) {
+    .folders {
+        display: none;
+    }
+
+    .document {
+        position: absolute;
+        bottom: 52px;
+        right: 10px;
+
+        width: 58px;
+        height: 71px;
+        margin: -15.5px 0 0 5px;
+    }
+}

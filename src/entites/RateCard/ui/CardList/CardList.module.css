@@ -1,0 +1,9 @@
+.card__list {
+    margin: 0 0 55px;
+}
+
+@media (max-width: 768px) {
+    .card__list {
+        margin: 0 0 40px;
+    }
+}

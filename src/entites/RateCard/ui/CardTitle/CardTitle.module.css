@@ -1,0 +1,17 @@
+.card__title {
+    display: flex;
+    align-items: center;
+    column-gap: 19px;
+    margin: 0 0 10px;
+
+    font-size: 30px;
+    font-family: 'Inter SemiBold';
+    letter-spacing: 0.3px;
+}
+
+@media (max-width: 768px) {
+    .card__title.mobile {
+        margin: 0 0 23px;
+        font-size: 20px;
+    }
+}

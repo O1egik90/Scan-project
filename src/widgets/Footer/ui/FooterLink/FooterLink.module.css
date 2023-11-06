@@ -1,0 +1,9 @@
+.footer__link {
+    font-size: 14px;
+    transition: 0.3s linear;
+}
+
+.footer__link:hover {
+    color: rgb(215, 209, 252);
+    transition: 0.3s linear;
+}

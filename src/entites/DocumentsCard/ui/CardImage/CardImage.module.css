@@ -1,0 +1,16 @@
+.card__image {
+    position: relative;
+
+    width: 100%;
+    max-width: 581px;
+    height: 158px;
+    margin: 0 0 20px;
+
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .card__image {
+        margin: 0 0 18px;
+    }
+}

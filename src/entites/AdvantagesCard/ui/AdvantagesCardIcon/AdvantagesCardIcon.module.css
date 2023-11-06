@@ -1,0 +1,11 @@
+.advantages-card__icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 0 22px;
+}
+
+.advantages-card__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: 100%;
+}

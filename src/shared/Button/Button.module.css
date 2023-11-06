@@ -1,0 +1,76 @@
+.btn {
+    width: 305px;
+    height: 59px;
+
+    font-size: 22px;
+    font-family: 'Inter SemiBold';
+    color: #fff;
+    letter-spacing: 0.66px;
+    font-weight: 500;
+
+    background-color: #5970ff;
+    border-radius: 5px;
+    letter-spacing: 0.88px;
+    transition: 0.3s linear;
+}
+
+.btn:hover {
+    background-color: #4860fc;
+    transition: 0.3s linear;
+}
+
+.btn:active {
+    background-color: #7c8df7;
+    transition: 0.03s linear;
+}
+
+.card,
+.card_grey {
+    width: 355px;
+    font-size: 20px;
+    font-family: 'Inter Regular';
+    letter-spacing: 0.2px;
+}
+
+.card_grey {
+    color: #000;
+    background-color: #d2d2d2;
+    transition: 0.3s linear;
+}
+
+.card_grey:hover {
+    background-color: #c6c6c6;
+    transition: 0.3s linear;
+}
+
+.home {
+    width: 335px;
+    letter-spacing: 0.22px;
+}
+
+.auth {
+    width: 379px;
+}
+
+.disabled {
+    pointer-events: none;
+}
+
+.btn-disabled {
+    pointer-events: none;
+    opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    .card,
+    .card_grey {
+        width: 286.5px;
+        font-size: 18px;
+        font-weight: 400px;
+        letter-spacing: 0.18px;
+    }
+
+    .auth {
+        width: 305px;
+    }
+}

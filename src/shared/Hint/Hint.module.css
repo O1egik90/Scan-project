@@ -1,0 +1,43 @@
+.hint {
+    position: absolute;
+    bottom: -20px;
+    width: 100%;
+    display: none;
+    margin: 6px 0 0;
+
+    font-size: 14px;
+    text-align: center;
+    color: #949494;
+    letter-spacing: 0.14px;
+}
+
+.hint.error_alt,
+.hint.error {
+    display: block;
+    color: #ff5959;
+    white-space: nowrap;
+}
+
+.show {
+    bottom: -25px;
+    display: block;
+    text-align: left;
+    letter-spacing: 0.28px;
+}
+
+.hint.error_alt {
+    max-width: 242px;
+}
+
+@media (max-width: 768px) {
+    .hint {
+        font-size: 12px;
+        letter-spacing: 0.12px;
+    }
+    .hint.error_alt {
+        max-width: 335px;
+    }
+    .show {
+        font-size: 14px;
+    }
+}

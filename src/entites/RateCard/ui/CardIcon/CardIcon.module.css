@@ -1,0 +1,49 @@
+.lamp {
+    width: 92.4px;
+    height: 83.15px;
+    margin-left: -8px;
+}
+
+.target {
+    width: 94px;
+    height: 104px;
+}
+
+.laptop {
+    width: 96px;
+    height: 80px;
+    margin: 7px -10px 0 0;
+}
+
+.card__icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .card__icon {
+        position: absolute;
+    }
+
+    .lamp {
+        right: 9px;
+        top: 15px;
+        width: 59px;
+        height: 53.15px;
+    }
+
+    .target {
+        right: 12px;
+        top: 18px;
+        width: 68.3px;
+        height: 75.7px;
+    }
+
+    .laptop {
+        right: 25px;
+        top: 12px;
+        width: 73px;
+        height: 61px;
+    }
+}

@@ -1,0 +1,48 @@
+.checkbox {
+    margin: 0 0 16px 17px;
+}
+
+.checkbox__input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.checkbox__label {
+    position: relative;
+    cursor: pointer;
+    padding-left: 19px;
+}
+
+.checkbox__text {
+    display: inline-flex;
+    font-size: 18px;
+    letter-spacing: 0.54px;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.checkbox__text::before {
+    content: '';
+    position: absolute;
+    left: -19px;
+    top: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    user-select: none;
+}
+
+/* стили при наведении курсора на checkbox */
+.checkbox__input:not(:disabled):not(:checked) + .checkbox__text:hover::before {
+    border-color: #299e87;
+    transition: 0.1s linear;
+}
+
+.checkbox__input:checked + .checkbox__text::before {
+    background: url('./check-mark.svg') no-repeat center / 14px 14px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.checkbox__input:checked + .checkbox__text {
+    color: #000;
+}

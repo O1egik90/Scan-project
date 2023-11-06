@@ -1,0 +1,45 @@
+.card {
+    display: grid;
+    grid-template-rows: minmax(132px, auto) 1fr;
+    align-content: space-between;
+
+    width: 415px;
+    min-height: 540px;
+
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s linear;
+}
+
+.rate-card__body {
+    position: relative;
+    padding: 0 11px 24px 28px;
+}
+
+.card:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.4);
+    transition: 0.3s linear;
+}
+
+.orange {
+    border: 2px solid #ffb64f;
+}
+
+.cyan {
+    border: 2px solid #7ce3e1;
+}
+
+.black {
+    border: 2px solid #000;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 335px;
+        min-height: 472px;
+    }
+
+    .rate-card__body {
+        padding: 0 5px 31px 24px;
+    }
+}

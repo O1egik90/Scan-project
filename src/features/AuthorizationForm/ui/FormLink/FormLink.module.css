@@ -1,0 +1,73 @@
+.form__link {
+    position: relative;
+    display: inline-block;
+
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.32px;
+}
+
+.active {
+    cursor: pointer;
+    min-width: 151px;
+    color: #029491;
+    transition: 0.4s linear;
+}
+
+.active:hover {
+    color: #09afac;
+    transition: 0.3s linear;
+}
+
+.disable {
+    pointer-events: none;
+    min-width: 213px;
+    color: #c7c7c7;
+}
+
+.disable::after,
+.active:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 2px;
+}
+
+.active::after {
+    background-color: #029491;
+    transition: 0.4s linear;
+}
+
+.active:hover::after {
+    background-color: #09afac;
+    transition: 0.3s linear;
+}
+
+.disable::after {
+    background-color: #c7c7c7;
+}
+
+.small {
+    pointer-events: none;
+    font-size: 14px;
+    color: #5970ff;
+    letter-spacing: 0.28px;
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .form__link {
+        font-size: 14px;
+        letter-spacing: 0.28px;
+    }
+
+    .active {
+        min-width: 103px;
+    }
+
+    .disable {
+        min-width: 182px;
+    }
+}

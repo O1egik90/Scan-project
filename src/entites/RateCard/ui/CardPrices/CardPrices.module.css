@@ -1,0 +1,18 @@
+.card__prices {
+    min-height: 68px;
+    margin: 0 0 60px;
+}
+
+.card__prev-price {
+    font-size: 25px;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.25px;
+    text-decoration: line-through;
+}
+
+@media (max-width: 768px) {
+    .card__prices {
+        min-height: 45px;
+        margin: 0 0 40px;
+    }
+}

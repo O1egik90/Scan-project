@@ -1,0 +1,22 @@
+.search__image {
+    position: relative;
+    width: 442px;
+    height: 470px;
+    margin: 0 0 12px -55px;
+}
+
+.search__image img {
+    object-position: 55px;
+}
+
+@media (max-width: 1000px) {
+    .search__image {
+        width: 345px;
+        height: 403px;
+        margin: 0;
+    }
+
+    .search__image img {
+        object-position: 15px;
+    }
+}

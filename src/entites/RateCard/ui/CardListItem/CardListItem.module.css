@@ -1,0 +1,33 @@
+.card__list-item {
+    position: relative;
+    margin: 0 0 5px;
+    padding: 0 0 0 28px;
+    font-size: 18px;
+    letter-spacing: 0.18px;
+}
+
+.card__list-item:last-child {
+    margin: 0;
+}
+
+.card__list-item::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    background-image: url('./check-mark.svg');
+}
+
+@media (max-width: 768px) {
+    .card__list-item::before {
+        left: -5px;
+    }
+
+    .card__list-item {
+        padding: 0 0 0 20px;
+        font-size: 16px;
+    }
+}
